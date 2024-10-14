@@ -92,9 +92,10 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 STATIC_URL = "static/"
 
-MEDIA_URL = "media/"
+# MEDIA_URL 설정도 필요없음,로컬에서 작업할 때를 비교하기 위해서 썼었음
+# MEDIA_URL = "media/"
 
-MEDIA_ROOT = BASE_DIR / "media"
+# MEDIA_ROOT = BASE_DIR / "media"
 
 
 STORAGES = {
